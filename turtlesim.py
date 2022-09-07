@@ -48,9 +48,7 @@ def talker(path_type): # node name
                 rate.sleep()
                 if rospy.get_time() - time_start > walktime:
                     break
-                    
 
-                rate.sleep()
 if __name__ == '__main__':
     try:
         talker('circle') # Select Path Type here (Circle / Triange)
