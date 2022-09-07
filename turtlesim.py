@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# Assignment 1.1a and 1.1b
+# Sattra Piyapunsutti 62382039211
+
 import rospy
 from geometry_msgs.msg import Twist
  
