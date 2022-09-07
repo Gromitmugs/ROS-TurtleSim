@@ -51,7 +51,7 @@ def talker(path_type): # node name
 
 if __name__ == '__main__':
     try:
-        talker('tri')
+        talker('triangle') # Select Path Type here (Circle / Triange)
     except rospy.ROSInterruptException:
         pass
 
